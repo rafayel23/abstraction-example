@@ -1,0 +1,8 @@
+li {
+  cursor: pointer;
+  transition: text-indent 0.1s;
+
+  &:hover {
+    text-indent: 5px;
+  }
+}

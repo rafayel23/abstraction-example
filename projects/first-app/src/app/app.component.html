@@ -1,0 +1,10 @@
+<app-simple-list
+  [items]="items"
+  (itemActivated)="localHandler($event)">
+</app-simple-list>
+
+<app-simple-list
+  bypassGlobalHandler
+  [items]="items"
+  (itemActivated)="localHandler($event)">
+</app-simple-list>
